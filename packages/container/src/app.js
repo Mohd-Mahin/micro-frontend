@@ -6,6 +6,7 @@ export default () => {
     return (
         <div>
             <h1>Rendering conainer app.</h1>
+            <hr />
             <MarketingApp />
         </div>
     )
