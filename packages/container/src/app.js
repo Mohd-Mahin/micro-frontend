@@ -8,6 +8,7 @@ export default () => {
             <h1>Rendering conainer app.</h1>
             <hr />
             <MarketingApp />
+            <hr />
         </div>
     )
 }
