@@ -5,7 +5,10 @@ const packageJSON = require('../package.json');
 
 const prodConfig = {
     mode: 'production',
-    output: '[name].[contenthash].js',
+    output: {
+        filename: '[name].[contenthash].js',
+        publicPath: '/marketing/latest/'
+    },
     plugins: [
         new ModuleFederationPlugin({
             name: 'marketing',
